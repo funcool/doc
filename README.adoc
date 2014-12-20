@@ -1,0 +1,86 @@
+= Funcool
+:toc: right
+:numbered:
+:source-highlighter: pygments
+:pygments-style: friendly
+:sectlinks:
+
+== Introduction
+
+*funcool* is a growing collection of open source Clojure and ClojureScript libraries that
+sares this principes:
+
+- Good documentation.
+- Clear state of development.
+- Easy way to contribute.
+- Beautiful is better than ugly.
+- Explicit is better than implicit.
+- Simple is better than complex.
+- Complex is better than complicated.
+- Readability counts.
+
+Clojure has a very good community and has very good libraries for do almost everything and majority
+of them are not known, but also it has much more libraries that are undocumented, unmantained or with
+very bad implementation.
+
+*funcool* people try to maintain a little collection of libraries developed by ourselves and also
+maintain a updated list of libraries that matches with our philosophy, making available a good
+reference list of libraries.
+
+
+== Who is responsible for it?
+
+*funcool* is a little comunity managed by a little group of persons that loves functional
+programming and good and well documented open source software.
+
+You can contact us using *funcool* google groups: https://groups.google.com/forum/#!forum/funcool
+
+
+== Libraries developed by us
+
+=== buddy
+
+*buddy* is a complete security library for clojure with support for:
+
+- Github: https://github.com/niwibe/buddy
+- Documentation: https://niwibe.github.io/buddy/
+
+
+=== cats
+
+Category Theory abstractions for Clojure.
+
+- Github: https://github.com/funcool/cats
+- Documentation: http://niwibe.github.io/cats/
+
+
+=== suricatta
+
+High level sql toolkit for clojure (backed by jooq library)
+
+- Github: https://github.com/niwibe/suricatta
+- Documentation: http://niwibe.github.io/suricatta/
+
+
+=== clojure.jdbc
+
+_clojure.jdbc_ is a library for low level, jdbc-based database access.
+
+Is an alternative implementation to the official `clojure.java.jdbc`.
+
+- Github: https://github.com/niwibe/clojure.jdbc
+- Documentation: http://niwibe.github.io/clojure.jdbc/
+
+
+=== hodgepodge
+
+A idiomatic ClojureScript interface to local and session storage.
+
+- Github: https://github.com/dialelo/hodgepodge
+- Documentation: https://dialelo.github.io/hodgepodge/
+
+=== cuerdas
+
+The missing clojurescript string manipulation library.
+
+- Github & Documentation: https://github.com/funcool/cuerdas
