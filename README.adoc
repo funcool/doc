@@ -22,9 +22,9 @@ Clojure has a very good community and has very good libraries for do almost ever
 of them are not known, but also it has much more libraries that are undocumented, unmantained or with
 very bad implementation.
 
-*funcool* people try to maintain a little collection of libraries developed by ourselves and also
-maintain a updated list of libraries that matches with our philosophy, making available a good
-reference list of libraries.
+We will try to maintain a little collection of libraries developed by ourselves and also
+maintain an arbitrary updated list of currently maintained libraries that we have used in the past
+or actualy using for our projects.
 
 
 == Who is responsible for it?
@@ -130,6 +130,34 @@ A Clojure library designed to allow Clojure configuration to travel between host
 - Github & Documentation: https://github.com/james-henderson/nomad
 
 
+=== ring
+
+Clojure HTTP server abstraction
+
+- Github & Documentation: https://github.com/ring-clojure/ring
+
+
+=== compojure
+
+A concise routing library for Ring/Clojure
+
+- Github & Documentation: https://github.com/weavejester/compojure
+
+
+=== clout
+
+HTTP route-matching library for Clojure
+
+- Github & Documentation: https://github.com/weavejester/clout
+
+
+=== hiccup
+
+Fast library for rendering HTML in Clojure
+
+- Github & Documentation: https://github.com/weavejester/hiccup
+
+
 == Third party libraries for ClojureScript
 
 === secretary
@@ -158,6 +186,19 @@ A ClojureScript DOM templating library based on hiccup syntax
 A ClojureScript DOM manipulation and event library.
 
 - Github & Documentation: https://github.com/Prismatic/dommy
+
+=== om
+
+ClojureScript interface to Facebook's React
+
+- Github & Documentation: https://github.com/swannodette/om
+
+
+=== sablono
+
+Lisp/Hiccup style templating for Facebook's React in ClojureScript.
+
+- Github & Documentation: https://github.com/r0man/sablono
 
 
 == Third party libraries for both: Clojure and ClojureScript
