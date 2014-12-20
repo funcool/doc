@@ -130,7 +130,6 @@ A Clojure library designed to allow Clojure configuration to travel between host
 - Github & Documentation: https://github.com/james-henderson/nomad
 
 
-
 == Third party libraries for ClojureScript
 
 === secretary
@@ -169,3 +168,9 @@ Clojure(Script) library for declarative data description and validation
 
 - Github & Documentation: https://github.com/Prismatic/schema
 
+
+=== speclj
+
+It's a TDD/BDD framework for Clojure and Clojurescript, based on RSpec.
+
+- Github & Documentation: https://github.com/slagyr/speclj
