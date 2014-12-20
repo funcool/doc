@@ -1,6 +1,5 @@
 = Funcool
 :toc: right
-:numbered:
 :source-highlighter: pygments
 :pygments-style: friendly
 :sectlinks:
