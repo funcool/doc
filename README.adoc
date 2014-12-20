@@ -83,3 +83,89 @@ A idiomatic ClojureScript interface to local and session storage.
 The missing clojurescript string manipulation library.
 
 - Github & Documentation: https://github.com/funcool/cuerdas
+
+
+== Third party libraries for Clojure
+
+=== cheshire
+
+Clojure JSON and JSON SMILE (binary json format) encoding/decoding.
+
+- Github & Documentation: https://github.com/dakrone/cheshire
+
+
+=== clj-time
+
+A date and time library for Clojure, wrapping the Joda Time library.
+
+- Github & Documentation: https://github.com/clj-time/clj-time
+
+
+=== potemkin
+
+Potemkin is a collection of facades and workarounds for things that are more difficult
+than they should be.
+
+- Github & Documentation: https://github.com/ztellman/potemkin
+
+=== nippy
+
+Clojure serialization library
+
+- Github & Documentation: https://github.com/ptaoussanis/nippy
+
+
+=== jet
+
+Jetty9 ring server adapter with WebSocket support via core.async and Jetty9 based
+HTTP & WebSocket clients.
+
+- Github & Documentation: https://github.com/mpenet/jet
+
+
+=== nomad
+
+A Clojure library designed to allow Clojure configuration to travel between hosts.
+
+- Github & Documentation: https://github.com/james-henderson/nomad
+
+
+
+== Third party libraries for ClojureScript
+
+=== secretary
+
+A client-side router for ClojureScript.
+
+- Github & Documentation: https://github.com/gf3/secretary
+
+
+=== shodan
+
+A ClojureScript library providing wrappers for the JavaScript console API.
+
+- Github & Documentation: https://github.com/noprompt/shodan
+
+
+=== hipo
+
+A ClojureScript DOM templating library based on hiccup syntax
+
+- Github & Documentation: https://github.com/jeluard/hipo/
+
+
+=== dommy
+
+A ClojureScript DOM manipulation and event library.
+
+- Github & Documentation: https://github.com/Prismatic/dommy
+
+
+== Third party libraries for both: Clojure and ClojureScript
+
+=== schema
+
+Clojure(Script) library for declarative data description and validation
+
+- Github & Documentation: https://github.com/Prismatic/schema
+
