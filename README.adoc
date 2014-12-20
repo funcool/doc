@@ -39,7 +39,7 @@ You can contact us using *funcool* google groups: https://groups.google.com/foru
 
 === buddy
 
-*buddy* is a complete security library for clojure with support for:
+*buddy* is a complete security library for clojure.
 
 - Github: https://github.com/niwibe/buddy
 - Documentation: https://niwibe.github.io/buddy/
