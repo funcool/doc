@@ -7,7 +7,7 @@
 == Introduction
 
 *funcool* is a growing collection of open source Clojure and ClojureScript libraries that
-sares this principes:
+share the following principles:
 
 - Good documentation.
 - Clear state of development.
@@ -18,19 +18,19 @@ sares this principes:
 - Complex is better than complicated.
 - Readability counts.
 
-Clojure has a very good community and has very good libraries for do almost everything and majority
-of them are not known, but also it has much more libraries that are undocumented, unmantained or with
-very bad implementation.
+Clojure has a very good community and has very good libraries for doing almost everything and the majority
+aren't known. On the other hand there are also libraries that are undocumented, unmantained or with
+a very bad implementation.
 
 We will try to maintain a little collection of libraries developed by ourselves and also
-maintain an arbitrary updated list of currently maintained libraries that we have used in the past
-or actualy using for our projects.
+another list of well maintained libraries that we have used in the past or are currently
+using for our projects.
 
 
 == Who is responsible for it?
 
-*funcool* is a little comunity managed by a little group of persons that loves functional
-programming and good and well documented open source software.
+*funcool* is a community managed by a little group of persons that loves functional
+programming and good, well documented open source software.
 
 You can contact us using *funcool* google groups: https://groups.google.com/forum/#!forum/funcool
 
@@ -187,6 +187,7 @@ A ClojureScript DOM manipulation and event library.
 
 - Github & Documentation: https://github.com/Prismatic/dommy
 
+
 === om
 
 ClojureScript interface to Facebook's React
@@ -201,7 +202,7 @@ Lisp/Hiccup style templating for Facebook's React in ClojureScript.
 - Github & Documentation: https://github.com/r0man/sablono
 
 
-== Third party libraries for both: Clojure and ClojureScript
+== Third party libraries for both Clojure and ClojureScript
 
 === schema
 
@@ -212,6 +213,6 @@ Clojure(Script) library for declarative data description and validation
 
 === speclj
 
-It's a TDD/BDD framework for Clojure and Clojurescript, based on RSpec.
+A TDD/BDD framework for Clojure and Clojurescript, based on RSpec.
 
 - Github & Documentation: https://github.com/slagyr/speclj
