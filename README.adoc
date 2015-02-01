@@ -75,8 +75,8 @@ Is an alternative implementation to the official `clojure.java.jdbc`.
 
 A idiomatic ClojureScript interface to local and session storage.
 
-- Github: https://github.com/dialelo/hodgepodge
-- Documentation: https://dialelo.github.io/hodgepodge/
+- Github: https://github.com/funcool/hodgepodge
+- Documentation: https://funcool.github.io/hodgepodge/
 
 === cuerdas
 
