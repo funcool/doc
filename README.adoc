@@ -41,8 +41,8 @@ You can contact us using *funcool* google groups: https://groups.google.com/foru
 
 *buddy* is a complete security library for clojure.
 
-- Github: https://github.com/niwibe/buddy
-- Documentation: https://niwibe.github.io/buddy/
+- Github: https://github.com/funcool/buddy
+- Documentation: https://funcool.github.io/buddy/
 
 
 === cats
@@ -50,15 +50,15 @@ You can contact us using *funcool* google groups: https://groups.google.com/foru
 Category Theory abstractions for Clojure.
 
 - Github: https://github.com/funcool/cats
-- Documentation: http://niwibe.github.io/cats/
+- Documentation: http://funcool.github.io/cats/
 
 
 === suricatta
 
 High level sql toolkit for clojure (backed by jooq library)
 
-- Github: https://github.com/niwibe/suricatta
-- Documentation: http://niwibe.github.io/suricatta/
+- Github: https://github.com/funcool/suricatta
+- Documentation: http://funcool.github.io/suricatta/
 
 
 === clojure.jdbc
@@ -67,8 +67,8 @@ _clojure.jdbc_ is a library for low level, jdbc-based database access.
 
 Is an alternative implementation to the official `clojure.java.jdbc`.
 
-- Github: https://github.com/niwibe/clojure.jdbc
-- Documentation: http://niwibe.github.io/clojure.jdbc/
+- Github: https://github.com/funcool/clojure.jdbc
+- Documentation: http://funcool.github.io/clojure.jdbc/
 
 
 === hodgepodge
