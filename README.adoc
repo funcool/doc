@@ -34,6 +34,28 @@ programming and good, well documented open source software.
 
 You can contact us using *funcool* google groups: https://groups.google.com/forum/#!forum/funcool
 
+== How can I help?
+
+The funcool projects don't have any restrictions for contributions. We track issues using GitHub
+issues and accept contributions via pull requests.
+
+If you want to contribute to any of our projects just open an issue or pull request. We usually
+hang out in the #funcool channel of the Clojurians Slack http://clojurians.slack.com, we'll be
+happy to answer your questions and help you contribute to our projects.
+
+=== Code of Conduct
+
+Funcool is a inclusive organization, all are welcome.
+
+Please respect each other.
+
+Do not dismiss, abuse, harass, attach, insult or discriminate against others.
+
+If you feel unwelcome, unsafe or in danger please report the incident/s to one of us:
+- Andrey (twitter: http://twitter.com/niwinz, email: niwi@niwi.nz)
+- Alejandro (twitter: http://twitter.com/dialelo, email: alejandro@dialelo.com)
+
+We will work with you to resolve the issue promptly.
 
 == Libraries developed by us
 
