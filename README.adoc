@@ -6,8 +6,8 @@
 
 == Introduction
 
-*funcool* is a growing collection of open source Clojure and ClojureScript libraries that
-share the following principles:
+*funcool* is a growing collection of open source Clojure and ClojureScript libraries and
+learning material that share the following principles:
 
 - Good documentation.
 - Clear state of development.
@@ -58,13 +58,23 @@ If you feel unwelcome, unsafe or in danger please report the incident/s to one o
 
 We will work with you to resolve the issue promptly.
 
+== Learning material
+
+=== ClojureScript Unraveled
+
+An open source book about ClojureScript
+
+- Code: https://github.com/funcool/clojurescript-unraveled
+- HTML version: http://funcool.github.io/clojurescript-unraveled/
+- PDF/Epub/Mobi: https://leanpub.com/clojurescript-unraveled
+
 == Libraries developed by us
 
 === buddy
 
 *buddy* is a complete security library for clojure.
 
-- Github: https://github.com/funcool/buddy
+- Code: https://github.com/funcool/buddy
 - Documentation: https://funcool.github.io/buddy/
 
 
@@ -72,7 +82,7 @@ We will work with you to resolve the issue promptly.
 
 Category Theory abstractions for Clojure.
 
-- Github: https://github.com/funcool/cats
+- Code: https://github.com/funcool/cats
 - Documentation: http://funcool.github.io/cats/
 
 
@@ -80,7 +90,7 @@ Category Theory abstractions for Clojure.
 
 High level sql toolkit for clojure (backed by jooq library)
 
-- Github: https://github.com/funcool/suricatta
+- Code: https://github.com/funcool/suricatta
 - Documentation: http://funcool.github.io/suricatta/
 
 
@@ -90,7 +100,7 @@ _clojure.jdbc_ is a library for low level, jdbc-based database access.
 
 Is an alternative implementation to the official `clojure.java.jdbc`.
 
-- Github: https://github.com/funcool/clojure.jdbc
+- Code: https://github.com/funcool/clojure.jdbc
 - Documentation: http://funcool.github.io/clojure.jdbc/
 
 
@@ -98,14 +108,52 @@ Is an alternative implementation to the official `clojure.java.jdbc`.
 
 A idiomatic ClojureScript interface to local and session storage.
 
-- Github: https://github.com/funcool/hodgepodge
+- Code: https://github.com/funcool/hodgepodge
 - Documentation: https://funcool.github.io/hodgepodge/
 
 === cuerdas
 
 The missing clojurescript string manipulation library.
 
-- Github & Documentation: https://github.com/funcool/cuerdas
+- Code: https://github.com/funcool/cuerdas
+- Documentation: https://funcool.github.io/cuerdas
+
+
+=== promesa
+
+A promise library for Clojure(Script)
+
+- Code: https://github.com/funcool/promesa
+- Documentation: https://funcool.github.io/promesa
+
+=== httpurr
+
+A ring-inspired, promise-returning, simple Clojure(Script) HTTP client
+
+- Code: https://github.com/funcool/httpurr
+- Documentation: https://funcool.github.io/httpurr
+
+=== urania
+
+Elegant and Efficient remote data access for Clojure(Script) 
+
+- Code: https://github.com/funcool/urania
+- Documentation: https://funcool.github.io/urania
+
+=== beicon
+
+Reactive Streams for ClojureScript (built on top of RxJS)
+
+- Code: https://github.com/funcool/beicon
+- Documentation: https://funcool.github.io/beicon
+
+
+=== catacumba
+
+Asynchronous web toolkit for clojure built on top of Ratpack / Netty
+
+- Code: https://github.com/funcool/catacumba
+- Documentation: https://funcool.github.io/catacumba
 
 
 == Third party libraries for Clojure
