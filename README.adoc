@@ -162,14 +162,14 @@ Asynchronous web toolkit for clojure built on top of Ratpack / Netty
 
 Clojure JSON and JSON SMILE (binary json format) encoding/decoding.
 
-- Github & Documentation: https://github.com/dakrone/cheshire
+- Code & Documentation: https://github.com/dakrone/cheshire
 
 
 === clj-time
 
 A date and time library for Clojure, wrapping the Joda Time library.
 
-- Github & Documentation: https://github.com/clj-time/clj-time
+- Code & Documentation: https://github.com/clj-time/clj-time
 
 
 === potemkin
@@ -177,13 +177,13 @@ A date and time library for Clojure, wrapping the Joda Time library.
 Potemkin is a collection of facades and workarounds for things that are more difficult
 than they should be.
 
-- Github & Documentation: https://github.com/ztellman/potemkin
+- Code & Documentation: https://github.com/ztellman/potemkin
 
 === nippy
 
 Clojure serialization library
 
-- Github & Documentation: https://github.com/ptaoussanis/nippy
+- Code & Documentation: https://github.com/ptaoussanis/nippy
 
 
 === jet
@@ -191,42 +191,42 @@ Clojure serialization library
 Jetty9 ring server adapter with WebSocket support via core.async and Jetty9 based
 HTTP & WebSocket clients.
 
-- Github & Documentation: https://github.com/mpenet/jet
+- Code & Documentation: https://github.com/mpenet/jet
 
 
 === nomad
 
 A Clojure library designed to allow Clojure configuration to travel between hosts.
 
-- Github & Documentation: https://github.com/james-henderson/nomad
+- Code & Documentation: https://github.com/james-henderson/nomad
 
 
 === ring
 
 Clojure HTTP server abstraction
 
-- Github & Documentation: https://github.com/ring-clojure/ring
+- Code & Documentation: https://github.com/ring-clojure/ring
 
 
-=== compojure
+=== bidi
 
 A concise routing library for Ring/Clojure
 
-- Github & Documentation: https://github.com/weavejester/compojure
+- Code & Documentation: https://github.com/weavejester/compojure
 
 
 === clout
 
 HTTP route-matching library for Clojure
 
-- Github & Documentation: https://github.com/weavejester/clout
+- Code & Documentation: https://github.com/weavejester/clout
 
 
 === hiccup
 
 Fast library for rendering HTML in Clojure
 
-- Github & Documentation: https://github.com/weavejester/hiccup
+- Code & Documentation: https://github.com/weavejester/hiccup
 
 
 == Third party libraries for ClojureScript
@@ -235,42 +235,42 @@ Fast library for rendering HTML in Clojure
 
 A client-side router for ClojureScript.
 
-- Github & Documentation: https://github.com/gf3/secretary
+- Code & Documentation: https://github.com/gf3/secretary
 
 
 === shodan
 
 A ClojureScript library providing wrappers for the JavaScript console API.
 
-- Github & Documentation: https://github.com/noprompt/shodan
+- Code & Documentation: https://github.com/noprompt/shodan
 
 
 === hipo
 
 A ClojureScript DOM templating library based on hiccup syntax
 
-- Github & Documentation: https://github.com/jeluard/hipo/
+- Code & Documentation: https://github.com/jeluard/hipo/
 
 
 === dommy
 
 A ClojureScript DOM manipulation and event library.
 
-- Github & Documentation: https://github.com/Prismatic/dommy
+- Code & Documentation: https://github.com/Prismatic/dommy
 
 
 === om
 
 ClojureScript interface to Facebook's React
 
-- Github & Documentation: https://github.com/swannodette/om
+- Code & Documentation: https://github.com/swannodette/om
 
 
 === sablono
 
 Lisp/Hiccup style templating for Facebook's React in ClojureScript.
 
-- Github & Documentation: https://github.com/r0man/sablono
+- Code & Documentation: https://github.com/r0man/sablono
 
 
 == Third party libraries for both Clojure and ClojureScript
@@ -279,11 +279,11 @@ Lisp/Hiccup style templating for Facebook's React in ClojureScript.
 
 Clojure(Script) library for declarative data description and validation
 
-- Github & Documentation: https://github.com/Prismatic/schema
+- Code & Documentation: https://github.com/Prismatic/schema
 
 
 === speclj
 
 A TDD/BDD framework for Clojure and Clojurescript, based on RSpec.
 
-- Github & Documentation: https://github.com/slagyr/speclj
+- Code & Documentation: https://github.com/slagyr/speclj
