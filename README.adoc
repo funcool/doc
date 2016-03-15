@@ -246,26 +246,12 @@ A ClojureScript library providing wrappers for the JavaScript console API.
 - Code & Documentation: https://github.com/noprompt/shodan
 
 
-=== hipo
+=== rum
 
-A ClojureScript DOM templating library based on hiccup syntax
-
-- Code & Documentation: https://github.com/jeluard/hipo/
+Minimal React wrapper for ClojureScript. Decomplected, extensible, simple
 
 
-=== dommy
-
-A ClojureScript DOM manipulation and event library.
-
-- Code & Documentation: https://github.com/Prismatic/dommy
-
-
-=== om
-
-ClojureScript interface to Facebook's React
-
-- Code & Documentation: https://github.com/swannodette/om
-
+- Code & Documentation: https://github.com/tonsky/rum
 
 === sablono
 
@@ -276,15 +262,14 @@ Lisp/Hiccup style templating for Facebook's React in ClojureScript.
 
 == Third party libraries for both Clojure and ClojureScript
 
-=== schema
+=== bouncer
 
-Clojure(Script) library for declarative data description and validation
+A validation DSL for Clojure & Clojurescript applications
 
-- Code & Documentation: https://github.com/Prismatic/schema
+- Code & Documentation: https://github.com/leonardoborges/bouncer
 
+=== test.check
 
-=== speclj
+QuickCheck for Clojure
 
-A TDD/BDD framework for Clojure and Clojurescript, based on RSpec.
-
-- Code & Documentation: https://github.com/slagyr/speclj
+- Code & Documentation: https://github.com/clojure/test.check
