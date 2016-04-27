@@ -6,8 +6,8 @@
 
 == Introduction
 
-*funcool* is a growing collection of open source Clojure and ClojureScript libraries and
-learning material that share the following principles:
+*funcool* is a growing collection of open source Clojure and ClojureScript
+libraries and learning material that share the following principles:
 
 - Good documentation.
 - Clear state of development.
@@ -19,13 +19,13 @@ learning material that share the following principles:
 - Complex is better than complicated.
 - Readability counts.
 
-Clojure has a very good community and has very good libraries for doing almost everything and the majority
-aren't known. On the other hand there are also libraries that are undocumented, unmantained or with
-a very bad implementation.
+Clojure has a very good community and has very good libraries for doing almost
+everything and the majority aren't known. On the other hand there are also
+libraries that are undocumented, unmantained or with a very bad implementation.
 
-We will try to maintain a little collection of libraries developed by ourselves and also
-another list of well maintained libraries that we have used in the past or are currently
-using for our projects.
+We will try to maintain a little collection of libraries developed by ourselves
+and also another list of well maintained libraries that we have used in the past
+or are currently using for our projects.
 
 
 == Who is responsible for it?
@@ -33,16 +33,20 @@ using for our projects.
 *funcool* is a community managed by a little group of persons that loves functional
 programming and good, well documented open source software.
 
-You can contact us using *funcool* google groups: https://groups.google.com/forum/#!forum/funcool
+You can contact us using *funcool* google groups:
+https://groups.google.com/forum/#!forum/funcool or joining into link:https://clojurians.slack.com/messages/funcool/[#funcool] channel on clojure community slack.
+
 
 == How can I help?
 
-The funcool projects don't have any restrictions for contributions. We track issues using GitHub
-issues and accept contributions via pull requests.
+The funcool projects don't have any restrictions for contributions. We track issues
+using GitHub issues and accept contributions via pull requests.
 
-If you want to contribute to any of our projects just open an issue or pull request. We usually
-hang out in the #funcool channel of the Clojurians Slack http://clojurians.slack.com, we'll be
-happy to answer your questions and help you contribute to our projects.
+If you want to contribute to any of our projects just open an issue or pull
+request. We usually hang out in the #funcool channel of the Clojurians Slack
+http://clojurians.slack.com, we'll be happy to answer your questions and help you
+contribute to our projects.
+
 
 === Code of Conduct
 
@@ -59,6 +63,7 @@ If you feel unwelcome, unsafe or in danger please report the incident/s to one o
 
 We will work with you to resolve the issue promptly.
 
+
 == Learning material
 
 === ClojureScript Unraveled
@@ -69,6 +74,7 @@ An open source book about ClojureScript
 - HTML version: http://funcool.github.io/clojurescript-unraveled/
 - PDF/Epub/Mobi: https://leanpub.com/clojurescript-unraveled
 
+
 == Libraries developed by us
 
 === buddy
@@ -77,6 +83,14 @@ An open source book about ClojureScript
 
 - Code: https://github.com/funcool/buddy
 - Documentation: https://funcool.github.io/buddy/
+
+
+=== catacumba
+
+Asynchronous web toolkit for clojure built on top of Ratpack / Netty
+
+- Code: https://github.com/funcool/catacumba
+- Documentation: https://funcool.github.io/catacumba/latest/
 
 
 === cats
@@ -102,7 +116,7 @@ _clojure.jdbc_ is a library for low level, jdbc-based database access.
 Is an alternative implementation to the official `clojure.java.jdbc`.
 
 - Code: https://github.com/funcool/clojure.jdbc
-- Documentation: http://funcool.github.io/clojure.jdbc/
+- Documentation: http://funcool.github.io/clojure.jdbc/latest/
 
 
 === hodgepodge
@@ -112,12 +126,13 @@ A idiomatic ClojureScript interface to local and session storage.
 - Code: https://github.com/funcool/hodgepodge
 - Documentation: https://funcool.github.io/hodgepodge/
 
+
 === cuerdas
 
 The missing Clojure(Script) string manipulation library.
 
 - Code: https://github.com/funcool/cuerdas
-- Documentation: https://funcool.github.io/cuerdas
+- Documentation: https://funcool.github.io/cuerdas/latest/
 
 
 === promesa
@@ -125,36 +140,39 @@ The missing Clojure(Script) string manipulation library.
 A promise library for Clojure(Script)
 
 - Code: https://github.com/funcool/promesa
-- Documentation: https://funcool.github.io/promesa
+- Documentation: https://funcool.github.io/promesa/latest/
+
 
 === httpurr
 
 A ring-inspired, promise-returning, simple Clojure(Script) HTTP client
 
 - Code: https://github.com/funcool/httpurr
-- Documentation: https://funcool.github.io/httpurr
+- Documentation: https://funcool.github.io/httpurr/latest/
+
 
 === urania
 
-Elegant and Efficient remote data access for Clojure(Script) 
+Elegant and Efficient remote data access for Clojure(Script)
 
 - Code: https://github.com/funcool/urania
-- Documentation: https://funcool.github.io/urania
+- Documentation: https://funcool.github.io/urania/latest/
+
 
 === beicon
 
 Reactive Streams for ClojureScript (built on top of RxJS)
 
 - Code: https://github.com/funcool/beicon
-- Documentation: https://funcool.github.io/beicon
+- Documentation: https://funcool.github.io/beicon/latest/
 
 
-=== catacumba
+=== struct
 
-Asynchronous web toolkit for clojure built on top of Ratpack / Netty
+Validation library for Clojure and ClojureScript
 
-- Code: https://github.com/funcool/catacumba
-- Documentation: https://funcool.github.io/catacumba
+- Code: https://github.com/funcool/struct
+- Documentation: https://funcool.github.io/struct/latest/
 
 
 == Third party libraries for Clojure
@@ -172,13 +190,6 @@ A date and time library for Clojure, wrapping the Joda Time library.
 
 - Code & Documentation: https://github.com/clj-time/clj-time
 
-
-=== potemkin
-
-Potemkin is a collection of facades and workarounds for things that are more difficult
-than they should be.
-
-- Code & Documentation: https://github.com/ztellman/potemkin
 
 === nippy
 
@@ -250,8 +261,8 @@ A ClojureScript library providing wrappers for the JavaScript console API.
 
 Minimal React wrapper for ClojureScript. Decomplected, extensible, simple
 
-
 - Code & Documentation: https://github.com/tonsky/rum
+
 
 === sablono
 
@@ -261,12 +272,6 @@ Lisp/Hiccup style templating for Facebook's React in ClojureScript.
 
 
 == Third party libraries for both Clojure and ClojureScript
-
-=== bouncer
-
-A validation DSL for Clojure & Clojurescript applications
-
-- Code & Documentation: https://github.com/leonardoborges/bouncer
 
 === test.check
 
