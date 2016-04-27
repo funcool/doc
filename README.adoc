@@ -81,8 +81,7 @@ An open source book about ClojureScript
 
 *buddy* is a complete security library for clojure.
 
-- Code: https://github.com/funcool/buddy
-- Documentation: https://funcool.github.io/buddy/
+- Code & Documentation: https://github.com/funcool/buddy
 
 
 === catacumba
