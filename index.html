@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.2">
+<meta name="generator" content="Asciidoctor 1.5.4">
 <title>Funcool</title>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400italic,600italic,400,600|Ubuntu+Mono:400);
@@ -776,26 +776,36 @@ pre.pygments.highlight { background-color: rgba(16, 195, 196, 0.05); }
 <li><a href="#_code_of_conduct">Code of Conduct</a></li>
 </ul>
 </li>
+<li><a href="#_learning_material">Learning material</a>
+<ul class="sectlevel2">
+<li><a href="#_clojurescript_unraveled">ClojureScript Unraveled</a></li>
+</ul>
+</li>
 <li><a href="#_libraries_developed_by_us">Libraries developed by us</a>
 <ul class="sectlevel2">
 <li><a href="#_buddy">buddy</a></li>
+<li><a href="#_catacumba">catacumba</a></li>
 <li><a href="#_cats">cats</a></li>
 <li><a href="#_suricatta">suricatta</a></li>
 <li><a href="#_clojure_jdbc">clojure.jdbc</a></li>
 <li><a href="#_hodgepodge">hodgepodge</a></li>
 <li><a href="#_cuerdas">cuerdas</a></li>
+<li><a href="#_promesa">promesa</a></li>
+<li><a href="#_httpurr">httpurr</a></li>
+<li><a href="#_urania">urania</a></li>
+<li><a href="#_beicon">beicon</a></li>
+<li><a href="#_struct">struct</a></li>
 </ul>
 </li>
 <li><a href="#_third_party_libraries_for_clojure">Third party libraries for Clojure</a>
 <ul class="sectlevel2">
 <li><a href="#_cheshire">cheshire</a></li>
 <li><a href="#_clj_time">clj-time</a></li>
-<li><a href="#_potemkin">potemkin</a></li>
 <li><a href="#_nippy">nippy</a></li>
 <li><a href="#_jet">jet</a></li>
 <li><a href="#_nomad">nomad</a></li>
 <li><a href="#_ring">ring</a></li>
-<li><a href="#_compojure">compojure</a></li>
+<li><a href="#_bidi">bidi</a></li>
 <li><a href="#_clout">clout</a></li>
 <li><a href="#_hiccup">hiccup</a></li>
 </ul>
@@ -804,16 +814,13 @@ pre.pygments.highlight { background-color: rgba(16, 195, 196, 0.05); }
 <ul class="sectlevel2">
 <li><a href="#_secretary">secretary</a></li>
 <li><a href="#_shodan">shodan</a></li>
-<li><a href="#_hipo">hipo</a></li>
-<li><a href="#_dommy">dommy</a></li>
-<li><a href="#_om">om</a></li>
+<li><a href="#_rum">rum</a></li>
 <li><a href="#_sablono">sablono</a></li>
 </ul>
 </li>
 <li><a href="#_third_party_libraries_for_both_clojure_and_clojurescript">Third party libraries for both Clojure and ClojureScript</a>
 <ul class="sectlevel2">
-<li><a href="#_schema">schema</a></li>
-<li><a href="#_speclj">speclj</a></li>
+<li><a href="#_test_check">test.check</a></li>
 </ul>
 </li>
 </ul>
@@ -824,8 +831,8 @@ pre.pygments.highlight { background-color: rgba(16, 195, 196, 0.05); }
 <h2 id="_introduction"><a class="link" href="#_introduction">Introduction</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p><strong>funcool</strong> is a growing collection of open source Clojure and ClojureScript libraries that
-share the following principles:</p>
+<p><strong>funcool</strong> is a growing collection of open source Clojure and ClojureScript
+libraries and learning material that share the following principles:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -837,6 +844,9 @@ share the following principles:</p>
 </li>
 <li>
 <p>Easy way to contribute.</p>
+</li>
+<li>
+<p>Support Clojure &amp; ClojureScript when possible.</p>
 </li>
 <li>
 <p>Beautiful is better than ugly.</p>
@@ -856,14 +866,14 @@ share the following principles:</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>Clojure has a very good community and has very good libraries for doing almost everything and the majority
-aren&#8217;t known. On the other hand there are also libraries that are undocumented, unmantained or with
-a very bad implementation.</p>
+<p>Clojure has a very good community and has very good libraries for doing almost
+everything and the majority aren&#8217;t known. On the other hand there are also
+libraries that are undocumented, unmantained or with a very bad implementation.</p>
 </div>
 <div class="paragraph">
-<p>We will try to maintain a little collection of libraries developed by ourselves and also
-another list of well maintained libraries that we have used in the past or are currently
-using for our projects.</p>
+<p>We will try to maintain a little collection of libraries developed by ourselves
+and also another list of well maintained libraries that we have used in the past
+or are currently using for our projects.</p>
 </div>
 </div>
 </div>
@@ -875,7 +885,8 @@ using for our projects.</p>
 programming and good, well documented open source software.</p>
 </div>
 <div class="paragraph">
-<p>You can contact us using <strong>funcool</strong> google groups: <a href="https://groups.google.com/forum/#!forum/funcool" class="bare">https://groups.google.com/forum/#!forum/funcool</a></p>
+<p>You can contact us using <strong>funcool</strong> google groups:
+<a href="https://groups.google.com/forum/#!forum/funcool" class="bare">https://groups.google.com/forum/#!forum/funcool</a> or joining into <a href="https://clojurians.slack.com/messages/funcool/">#funcool</a> channel on clojure community slack.</p>
 </div>
 </div>
 </div>
@@ -883,13 +894,14 @@ programming and good, well documented open source software.</p>
 <h2 id="_how_can_i_help"><a class="link" href="#_how_can_i_help">How can I help?</a></h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The funcool projects don&#8217;t have any restrictions for contributions. We track issues using GitHub
-issues and accept contributions via pull requests.</p>
+<p>The funcool projects don&#8217;t have any restrictions for contributions. We track issues
+using GitHub issues and accept contributions via pull requests.</p>
 </div>
 <div class="paragraph">
-<p>If you want to contribute to any of our projects just open an issue or pull request. We usually
-hang out in the #funcool channel of the Clojurians Slack <a href="http://clojurians.slack.com" class="bare">http://clojurians.slack.com</a>, we&#8217;ll be
-happy to answer your questions and help you contribute to our projects.</p>
+<p>If you want to contribute to any of our projects just open an issue or pull
+request. We usually hang out in the #funcool channel of the Clojurians Slack
+<a href="http://clojurians.slack.com" class="bare">http://clojurians.slack.com</a>, we&#8217;ll be happy to answer your questions and help you
+contribute to our projects.</p>
 </div>
 <div class="sect2">
 <h3 id="_code_of_conduct"><a class="link" href="#_code_of_conduct">Code of Conduct</a></h3>
@@ -922,6 +934,30 @@ happy to answer your questions and help you contribute to our projects.</p>
 </div>
 </div>
 <div class="sect1">
+<h2 id="_learning_material"><a class="link" href="#_learning_material">Learning material</a></h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_clojurescript_unraveled"><a class="link" href="#_clojurescript_unraveled">ClojureScript Unraveled</a></h3>
+<div class="paragraph">
+<p>An open source book about ClojureScript</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Code: <a href="https://github.com/funcool/clojurescript-unraveled" class="bare">https://github.com/funcool/clojurescript-unraveled</a></p>
+</li>
+<li>
+<p>HTML version: <a href="http://funcool.github.io/clojurescript-unraveled/" class="bare">http://funcool.github.io/clojurescript-unraveled/</a></p>
+</li>
+<li>
+<p>PDF/Epub/Mobi: <a href="https://leanpub.com/clojurescript-unraveled" class="bare">https://leanpub.com/clojurescript-unraveled</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_libraries_developed_by_us"><a class="link" href="#_libraries_developed_by_us">Libraries developed by us</a></h2>
 <div class="sectionbody">
 <div class="sect2">
@@ -932,7 +968,7 @@ happy to answer your questions and help you contribute to our projects.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github: <a href="https://github.com/funcool/buddy" class="bare">https://github.com/funcool/buddy</a></p>
+<p>Code: <a href="https://github.com/funcool/buddy" class="bare">https://github.com/funcool/buddy</a></p>
 </li>
 <li>
 <p>Documentation: <a href="https://funcool.github.io/buddy/" class="bare">https://funcool.github.io/buddy/</a></p>
@@ -941,14 +977,30 @@ happy to answer your questions and help you contribute to our projects.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_cats"><a class="link" href="#_cats">cats</a></h3>
+<h3 id="_catacumba"><a class="link" href="#_catacumba">catacumba</a></h3>
 <div class="paragraph">
-<p>Category Theory abstractions for Clojure.</p>
+<p>Asynchronous web toolkit for clojure built on top of Ratpack / Netty</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Github: <a href="https://github.com/funcool/cats" class="bare">https://github.com/funcool/cats</a></p>
+<p>Code: <a href="https://github.com/funcool/catacumba" class="bare">https://github.com/funcool/catacumba</a></p>
+</li>
+<li>
+<p>Documentation: <a href="https://funcool.github.io/catacumba/latest/" class="bare">https://funcool.github.io/catacumba/latest/</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_cats"><a class="link" href="#_cats">cats</a></h3>
+<div class="paragraph">
+<p>Category Theory abstractions for Clojure(Script).</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Code: <a href="https://github.com/funcool/cats" class="bare">https://github.com/funcool/cats</a></p>
 </li>
 <li>
 <p>Documentation: <a href="http://funcool.github.io/cats/" class="bare">http://funcool.github.io/cats/</a></p>
@@ -964,7 +1016,7 @@ happy to answer your questions and help you contribute to our projects.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github: <a href="https://github.com/funcool/suricatta" class="bare">https://github.com/funcool/suricatta</a></p>
+<p>Code: <a href="https://github.com/funcool/suricatta" class="bare">https://github.com/funcool/suricatta</a></p>
 </li>
 <li>
 <p>Documentation: <a href="http://funcool.github.io/suricatta/" class="bare">http://funcool.github.io/suricatta/</a></p>
@@ -983,10 +1035,10 @@ happy to answer your questions and help you contribute to our projects.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github: <a href="https://github.com/funcool/clojure.jdbc" class="bare">https://github.com/funcool/clojure.jdbc</a></p>
+<p>Code: <a href="https://github.com/funcool/clojure.jdbc" class="bare">https://github.com/funcool/clojure.jdbc</a></p>
 </li>
 <li>
-<p>Documentation: <a href="http://funcool.github.io/clojure.jdbc/" class="bare">http://funcool.github.io/clojure.jdbc/</a></p>
+<p>Documentation: <a href="http://funcool.github.io/clojure.jdbc/latest/" class="bare">http://funcool.github.io/clojure.jdbc/latest/</a></p>
 </li>
 </ul>
 </div>
@@ -999,7 +1051,7 @@ happy to answer your questions and help you contribute to our projects.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github: <a href="https://github.com/funcool/hodgepodge" class="bare">https://github.com/funcool/hodgepodge</a></p>
+<p>Code: <a href="https://github.com/funcool/hodgepodge" class="bare">https://github.com/funcool/hodgepodge</a></p>
 </li>
 <li>
 <p>Documentation: <a href="https://funcool.github.io/hodgepodge/" class="bare">https://funcool.github.io/hodgepodge/</a></p>
@@ -1010,12 +1062,95 @@ happy to answer your questions and help you contribute to our projects.</p>
 <div class="sect2">
 <h3 id="_cuerdas"><a class="link" href="#_cuerdas">cuerdas</a></h3>
 <div class="paragraph">
-<p>The missing clojurescript string manipulation library.</p>
+<p>The missing Clojure(Script) string manipulation library.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/funcool/cuerdas" class="bare">https://github.com/funcool/cuerdas</a></p>
+<p>Code: <a href="https://github.com/funcool/cuerdas" class="bare">https://github.com/funcool/cuerdas</a></p>
+</li>
+<li>
+<p>Documentation: <a href="https://funcool.github.io/cuerdas/latest/" class="bare">https://funcool.github.io/cuerdas/latest/</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_promesa"><a class="link" href="#_promesa">promesa</a></h3>
+<div class="paragraph">
+<p>A promise library for Clojure(Script)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Code: <a href="https://github.com/funcool/promesa" class="bare">https://github.com/funcool/promesa</a></p>
+</li>
+<li>
+<p>Documentation: <a href="https://funcool.github.io/promesa/latest/" class="bare">https://funcool.github.io/promesa/latest/</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_httpurr"><a class="link" href="#_httpurr">httpurr</a></h3>
+<div class="paragraph">
+<p>A ring-inspired, promise-returning, simple Clojure(Script) HTTP client</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Code: <a href="https://github.com/funcool/httpurr" class="bare">https://github.com/funcool/httpurr</a></p>
+</li>
+<li>
+<p>Documentation: <a href="https://funcool.github.io/httpurr/latest/" class="bare">https://funcool.github.io/httpurr/latest/</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_urania"><a class="link" href="#_urania">urania</a></h3>
+<div class="paragraph">
+<p>Elegant and Efficient remote data access for Clojure(Script)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Code: <a href="https://github.com/funcool/urania" class="bare">https://github.com/funcool/urania</a></p>
+</li>
+<li>
+<p>Documentation: <a href="https://funcool.github.io/urania/latest/" class="bare">https://funcool.github.io/urania/latest/</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_beicon"><a class="link" href="#_beicon">beicon</a></h3>
+<div class="paragraph">
+<p>Reactive Streams for ClojureScript (built on top of RxJS)</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Code: <a href="https://github.com/funcool/beicon" class="bare">https://github.com/funcool/beicon</a></p>
+</li>
+<li>
+<p>Documentation: <a href="https://funcool.github.io/beicon/latest/" class="bare">https://funcool.github.io/beicon/latest/</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_struct"><a class="link" href="#_struct">struct</a></h3>
+<div class="paragraph">
+<p>Validation library for Clojure and ClojureScript</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Code: <a href="https://github.com/funcool/struct" class="bare">https://github.com/funcool/struct</a></p>
+</li>
+<li>
+<p>Documentation: <a href="https://funcool.github.io/struct/latest/" class="bare">https://funcool.github.io/struct/latest/</a></p>
 </li>
 </ul>
 </div>
@@ -1033,7 +1168,7 @@ happy to answer your questions and help you contribute to our projects.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/dakrone/cheshire" class="bare">https://github.com/dakrone/cheshire</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/dakrone/cheshire" class="bare">https://github.com/dakrone/cheshire</a></p>
 </li>
 </ul>
 </div>
@@ -1046,21 +1181,7 @@ happy to answer your questions and help you contribute to our projects.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/clj-time/clj-time" class="bare">https://github.com/clj-time/clj-time</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_potemkin"><a class="link" href="#_potemkin">potemkin</a></h3>
-<div class="paragraph">
-<p>Potemkin is a collection of facades and workarounds for things that are more difficult
-than they should be.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Github &amp; Documentation: <a href="https://github.com/ztellman/potemkin" class="bare">https://github.com/ztellman/potemkin</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/clj-time/clj-time" class="bare">https://github.com/clj-time/clj-time</a></p>
 </li>
 </ul>
 </div>
@@ -1073,7 +1194,7 @@ than they should be.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/ptaoussanis/nippy" class="bare">https://github.com/ptaoussanis/nippy</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/ptaoussanis/nippy" class="bare">https://github.com/ptaoussanis/nippy</a></p>
 </li>
 </ul>
 </div>
@@ -1087,7 +1208,7 @@ HTTP &amp; WebSocket clients.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/mpenet/jet" class="bare">https://github.com/mpenet/jet</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/mpenet/jet" class="bare">https://github.com/mpenet/jet</a></p>
 </li>
 </ul>
 </div>
@@ -1100,7 +1221,7 @@ HTTP &amp; WebSocket clients.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/james-henderson/nomad" class="bare">https://github.com/james-henderson/nomad</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/james-henderson/nomad" class="bare">https://github.com/james-henderson/nomad</a></p>
 </li>
 </ul>
 </div>
@@ -1113,20 +1234,20 @@ HTTP &amp; WebSocket clients.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/ring-clojure/ring" class="bare">https://github.com/ring-clojure/ring</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/ring-clojure/ring" class="bare">https://github.com/ring-clojure/ring</a></p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_compojure"><a class="link" href="#_compojure">compojure</a></h3>
+<h3 id="_bidi"><a class="link" href="#_bidi">bidi</a></h3>
 <div class="paragraph">
 <p>A concise routing library for Ring/Clojure</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/weavejester/compojure" class="bare">https://github.com/weavejester/compojure</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/weavejester/compojure" class="bare">https://github.com/weavejester/compojure</a></p>
 </li>
 </ul>
 </div>
@@ -1139,7 +1260,7 @@ HTTP &amp; WebSocket clients.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/weavejester/clout" class="bare">https://github.com/weavejester/clout</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/weavejester/clout" class="bare">https://github.com/weavejester/clout</a></p>
 </li>
 </ul>
 </div>
@@ -1152,7 +1273,7 @@ HTTP &amp; WebSocket clients.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/weavejester/hiccup" class="bare">https://github.com/weavejester/hiccup</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/weavejester/hiccup" class="bare">https://github.com/weavejester/hiccup</a></p>
 </li>
 </ul>
 </div>
@@ -1170,7 +1291,7 @@ HTTP &amp; WebSocket clients.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/gf3/secretary" class="bare">https://github.com/gf3/secretary</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/gf3/secretary" class="bare">https://github.com/gf3/secretary</a></p>
 </li>
 </ul>
 </div>
@@ -1183,46 +1304,20 @@ HTTP &amp; WebSocket clients.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/noprompt/shodan" class="bare">https://github.com/noprompt/shodan</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/noprompt/shodan" class="bare">https://github.com/noprompt/shodan</a></p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_hipo"><a class="link" href="#_hipo">hipo</a></h3>
+<h3 id="_rum"><a class="link" href="#_rum">rum</a></h3>
 <div class="paragraph">
-<p>A ClojureScript DOM templating library based on hiccup syntax</p>
+<p>Minimal React wrapper for ClojureScript. Decomplected, extensible, simple</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/jeluard/hipo/" class="bare">https://github.com/jeluard/hipo/</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_dommy"><a class="link" href="#_dommy">dommy</a></h3>
-<div class="paragraph">
-<p>A ClojureScript DOM manipulation and event library.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Github &amp; Documentation: <a href="https://github.com/Prismatic/dommy" class="bare">https://github.com/Prismatic/dommy</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_om"><a class="link" href="#_om">om</a></h3>
-<div class="paragraph">
-<p>ClojureScript interface to Facebook&#8217;s React</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Github &amp; Documentation: <a href="https://github.com/swannodette/om" class="bare">https://github.com/swannodette/om</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/tonsky/rum" class="bare">https://github.com/tonsky/rum</a></p>
 </li>
 </ul>
 </div>
@@ -1235,7 +1330,7 @@ HTTP &amp; WebSocket clients.</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/r0man/sablono" class="bare">https://github.com/r0man/sablono</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/r0man/sablono" class="bare">https://github.com/r0man/sablono</a></p>
 </li>
 </ul>
 </div>
@@ -1246,27 +1341,14 @@ HTTP &amp; WebSocket clients.</p>
 <h2 id="_third_party_libraries_for_both_clojure_and_clojurescript"><a class="link" href="#_third_party_libraries_for_both_clojure_and_clojurescript">Third party libraries for both Clojure and ClojureScript</a></h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="_schema"><a class="link" href="#_schema">schema</a></h3>
+<h3 id="_test_check"><a class="link" href="#_test_check">test.check</a></h3>
 <div class="paragraph">
-<p>Clojure(Script) library for declarative data description and validation</p>
+<p>QuickCheck for Clojure</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Github &amp; Documentation: <a href="https://github.com/Prismatic/schema" class="bare">https://github.com/Prismatic/schema</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_speclj"><a class="link" href="#_speclj">speclj</a></h3>
-<div class="paragraph">
-<p>A TDD/BDD framework for Clojure and Clojurescript, based on RSpec.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Github &amp; Documentation: <a href="https://github.com/slagyr/speclj" class="bare">https://github.com/slagyr/speclj</a></p>
+<p>Code &amp; Documentation: <a href="https://github.com/clojure/test.check" class="bare">https://github.com/clojure/test.check</a></p>
 </li>
 </ul>
 </div>
@@ -1276,7 +1358,7 @@ HTTP &amp; WebSocket clients.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2015-12-06 15:07:37 CET
+Last updated 2016-04-27 21:34:50 EEST
 </div>
 </div>
 </body>
